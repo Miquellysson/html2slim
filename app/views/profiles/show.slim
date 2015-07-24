@@ -1,0 +1,29 @@
+p  id="notice"
+  =notice
+
+p
+  strong Name:
+  =@profile.name
+
+p
+  strong Email:
+  =@profile.email 
+p
+  strong Age:
+  =@profile.age
+
+p
+  strong Public:
+  =@profile.public
+p
+  strong Public:
+  =@profile.public
+
+p
+  strong Booleam:
+  =@profile.booleam
+
+p
+  = link_to 'Edit', edit_profile_path(@profile) 
+  br
+  = link_to 'Back', profiles_path
